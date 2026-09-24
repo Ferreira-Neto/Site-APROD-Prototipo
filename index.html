@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APROD — Cafés Especiais de Divinolândia</title>
+<meta name="description" content="A APROD reúne cafeicultores de altitude de Divinolândia-SP, unindo tradição familiar e qualidade para levar o melhor café das montanhas ao mundo.">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+<link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-aprod fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand brand-mark" href="#hero">
+      <span class="brand-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#223528" stroke-width="1.6"><path d="M3 8h13v5a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8z"/><path d="M16 9h2a2.5 2.5 0 0 1 0 5h-2"/><path d="M7 3c0 1-1 1.2-1 2.3S7 6.6 7 5.5" /><path d="M11 3c0 1-1 1.2-1 2.3S11 6.6 11 5.5"/></svg>
+      </span>
+      <span>
+        <span class="brand-text-title d-block">Cafés Especiais</span>
+        <span class="brand-text-sub">ASSOCIAÇÃO APROD · DIVINOLÂNDIA-SP</span>
+      </span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link nav-link-aprod" href="#historia">Nossa História</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aprod" href="#produtos">Certificações</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aprod" href="#produtores">Associados</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-aprod" href="#contato">Contato</a></li>
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a class="btn-terra d-inline-block" href="#produtos">Ver Certificações</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="hero">
+  <div class="hero-bg">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#8aab86"/>
+          <stop offset="100%" stop-color="#4c6b4a"/>
+        </linearGradient>
+        <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#5c7a55"/>
+          <stop offset="100%" stop-color="#3a5236"/>
+        </linearGradient>
+        <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#3f5a3c"/>
+          <stop offset="100%" stop-color="#26381f"/>
+        </linearGradient>
+      </defs>
+      <rect width="1440" height="900" fill="url(#sky)"/>
+      <path d="M0 380 Q 200 300 400 360 T 800 340 T 1200 380 T 1440 350 V900 H0 Z" fill="url(#mtn1)"/>
+      <path d="M0 480 Q 250 400 500 460 T 950 440 T 1440 470 V900 H0 Z" fill="url(#mtn2)"/>
+      <path d="M0 600 Q 300 540 600 590 T 1100 570 T 1440 600 V900 H0 Z" fill="#1e2c19"/>
+      <g opacity="0.5">
+        <circle cx="200" cy="150" r="60" fill="#ffffff" opacity="0.15"/>
+        <circle cx="1200" cy="100" r="90" fill="#ffffff" opacity="0.1"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <div class="row">
+      <div class="col-lg-11">
+        <span class="hero-eyebrow">DIVINOLÂNDIA-SP · SERRA DA MANTIQUEIRA</span>
+        <h1 class="hero-title">
+          Onde a montanha<br>
+          <em>vira café especial</em>
+        </h1>
+        <p class="hero-sub">
+          A APROD reúne cafeicultores de altitude de Divinolândia, unindo tradição familiar
+          e qualidade para levar o melhor café das montanhas ao mundo.
+        </p>
+        <div class="hero-cta">
+          <a href="#historia" class="btn-hero-primary">Nossa História</a>
+          <a href="#produtos" class="btn-hero-outline">Ver Certificações</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">+40</div>
+            <div class="stat-label">Associados</div>
+          </div>
+          <div>
+            <div class="stat-num">1.000–1.350 m</div>
+            <div class="stat-label">ALTITUDE</div>
+          </div>
+          <div>
+            <div class="stat-num">20+ anos</div>
+            <div class="stat-label">DE HISTÓRIA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    EXPLORAR
+    <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 1l7 7 7-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</header>
+
+<!-- ================= NOSSA HISTORIA ================= -->
+<section class="historia-section" id="historia">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="historia-img-wrap">
+          <div class="historia-frame">
+            <svg viewBox="0 0 400 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="hf" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#7a9c6f"/>
+                  <stop offset="100%" stop-color="#223528"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="500" fill="url(#hf)"/>
+              <path d="M0 350 Q100 300 200 340 T400 320 V500 H0Z" fill="#1b2a18" opacity="0.6"/>
+              <circle cx="320" cy="80" r="45" fill="#c9a154" opacity="0.35"/>
+            </svg>
+          </div>
+          <div class="historia-badge">
+            <div class="stat-num">1998</div>
+            <div class="stat-label">FUNDAÇÃO DA APROD</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 ps-lg-5">
+        <span class="section-eyebrow">NOSSA HISTÓRIA</span>
+        <h2 class="section-title">Tradição de famílias que plantam café há três gerações</h2>
+        <p class="lede">
+          Divinolândia fica na Serra da Mantiqueira, entre morros que passam de 1.300 metros de
+          altitude. Foi ali que um grupo de pequenos produtores decidiu se unir para transformar
+          um cultivo familiar em algo maior: uma associação dedicada exclusivamente a cafés de
+          especialidade.
+        </p>
+        <p class="lede mt-3">
+          Hoje a APROD conecta mais de famílias produtoras, compartilhando conhecimento sobre
+          processamento, torra e comercialização — sempre respeitando o tempo da terra e a
+          identidade de cada lavoura.
+        </p>
+        <div class="row mt-4 g-4">
+          <div class="col-6">
+            <div class="stat-num" style="color:var(--verde-mata);font-size:1.7rem;">100%</div>
+            <div class="stat-label" style="color:var(--verde-musgo);">ARÁBICA DE ALTITUDE</div>
+          </div>
+          <div class="col-6">
+            <div class="stat-num" style="color:var(--verde-mata);font-size:1.7rem;">3</div>
+            <div class="stat-label" style="color:var(--verde-musgo);">GERAÇÕES ENVOLVIDAS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUTOS ================= -->
+<section class="produtos-section" id="produtos">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-7">
+        <span class="section-eyebrow" style="color:var(--dourado);">CAFÉS ESPECIAIS</span>
+        <h2 class="section-title">Cada lote conta a história de um talhão</h2>
+        <p class="lede">Selecionamos grãos por processo, altitude e perfil sensorial, garantindo rastreabilidade do pé à xícara.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="produto-card">
+          <div class="produto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <h3>Fair Trade (Comércio Justo)</h3>
+          <p>A APROD é um modelo regional no processamento e na viabilização de lotes para exportação com foco em Fair Trade. Esse selo internacional garante:  
+            Preços mínimos justos pagos aos cafeicultores.
+            Rastreabilidade total e veto ao trabalho infantil ou análogo à escravidão.
+            Prêmios financeiros revertidos em investimentos para a comunidade local.</p>
+          <!-- <div class="produto-preco">R$ 48,90</div> -->
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="produto-card">
+          <div class="produto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M6 3h12l-1 9a5 5 0 0 1-10 0L6 3z"/><path d="M9 21h6"/><path d="M12 17v4"/></svg>
+          </div>
+          <h3>Cereja Descascado</h3>
+          <p>Processo honey, corpo aveludado e acidez cítrica equilibrada. Torra clara, perfeito para espresso.</p>
+          <div class="produto-preco">R$ 54,90</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="produto-card">
+          <div class="produto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 4h16v4a8 8 0 0 1-16 0V4z"/><path d="M4 4l-2 2m18-2l2 2"/><path d="M8 20h8"/></svg>
+          </div>
+          <h3>Blend das Famílias</h3>
+          <p>Mistura de três microlotes de produtores associados, criada para o consumo diário com equilíbrio e doçura.</p>
+          <div class="produto-preco">R$ 39,90</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUTORES ================= -->
+<section class="produtores-section" id="produtores">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-7">
+        <span class="section-eyebrow">PRODUTORES</span>
+        <h2 class="section-title">Quem planta, colhe e assina cada saca</h2>
+        <p class="lede">Conheça algumas das famílias que sustentam a tradição cafeeira de Divinolândia.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="produtor-card">
+          <div class="produtor-photo">
+            <svg viewBox="0 0 300 300" width="100%" height="100%"><rect width="300" height="300" fill="#a8461f"/><circle cx="150" cy="120" r="55" fill="#f4efe4" opacity="0.9"/><rect x="70" y="190" width="160" height="110" rx="30" fill="#f4efe4" opacity="0.9"/></svg>
+          </div>
+          <div class="produtor-body">
+            <h3>Sítio Boa Vista</h3>
+            <span class="produtor-role">Família Aparecida · 2ª geração</span>
+            <p>Cultivo em terraço a 1.280m, especializado em processos naturais.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="produtor-card">
+          <div class="produtor-photo">
+            <svg viewBox="0 0 300 300" width="100%" height="100%"><rect width="300" height="300" fill="#3c5a40"/><circle cx="150" cy="120" r="55" fill="#f4efe4" opacity="0.9"/><rect x="70" y="190" width="160" height="110" rx="30" fill="#f4efe4" opacity="0.9"/></svg>
+          </div>
+          <div class="produtor-body">
+            <h3>Fazenda Serra Alta</h3>
+            <span class="produtor-role">Família Ribeiro · 3ª geração</span>
+            <p>Pioneiros no processo honey da região, com foco em sustentabilidade.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="produtor-card">
+          <div class="produtor-photo">
+            <svg viewBox="0 0 300 300" width="100%" height="100%"><rect width="300" height="300" fill="#223528"/><circle cx="150" cy="120" r="55" fill="#f4efe4" opacity="0.9"/><rect x="70" y="190" width="160" height="110" rx="30" fill="#f4efe4" opacity="0.9"/></svg>
+          </div>
+          <div class="produtor-body">
+            <h3>Recanto do Mirante</h3>
+            <span class="produtor-role">Família Souza · 1ª geração</span>
+            <p>Nova safra premiada em concursos regionais de qualidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ALTITUDE / MAPA ================= -->
+<section class="altitude-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="section-eyebrow">TERROIR</span>
+        <h2 class="section-title">A altitude que dá corpo e doçura ao grão</h2>
+        <p class="lede">
+          Entre 1.000 e 1.350 metros, as lavouras da APROD enfrentam noites frias e manhãs de neblina —
+          condições que retardam a maturação do fruto e concentram açúcares, resultando em xícaras
+          mais complexas e doces.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <div class="altitude-visual">
+          <div class="altitude-marker" style="top: 30%; left: 40%;"></div>
+          <div class="altitude-marker" style="top: 55%; left: 65%;"></div>
+          <div class="altitude-marker" style="top: 68%; left: 25%;"></div>
+          <div>
+            <div class="stat-num" style="font-size:2.4rem;">1.000–1.350 m</div>
+            <div class="stat-label">FAIXA DE ALTITUDE DOS TALHÕES · DIVINOLÂNDIA-SP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="contato-section" id="contato">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <span class="section-eyebrow" style="color:var(--dourado);">CONTATO</span>
+        <h2 class="section-title">Vamos conversar sobre café</h2>
+        <p class="lede" style="color:rgba(244,239,228,0.7);">Para pedidos por atacado, visitas técnicas ou parcerias, fale com a nossa equipe.</p>
+
+        <div class="mt-5">
+          <div class="contato-info-item">
+            <span class="contato-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#c9a154" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <h4>Endereço</h4>
+              <p>Zona Rural, Divinolândia — SP</p>
+            </div>
+          </div>
+          <div class="contato-info-item">
+            <span class="contato-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#c9a154" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>
+            </span>
+            <div>
+              <h4>Telefone / WhatsApp</h4>
+              <p>(19) 99999-0000</p>
+            </div>
+          </div>
+          <div class="contato-info-item">
+            <span class="contato-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#c9a154" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 6 10-6"/></svg>
+            </span>
+            <div>
+              <h4>E-mail</h4>
+              <p>contato@aprodcafes.com.br</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <form id="contatoForm" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="nome">Nome</label>
+              <input type="text" class="form-control form-control-aprod" id="nome" required>
+              <div class="invalid-feedback">Por favor, informe seu nome.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">E-mail</label>
+              <input type="email" class="form-control form-control-aprod" id="email" required>
+              <div class="invalid-feedback">Informe um e-mail válido.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="assunto">Assunto</label>
+              <select class="form-select form-control-aprod" id="assunto" required>
+                <option value="" selected disabled>Selecione um assunto</option>
+                <option>Pedido por atacado</option>
+                <option>Visita técnica</option>
+                <option>Parceria comercial</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="mensagem">Mensagem</label>
+              <textarea class="form-control form-control-aprod" id="mensagem" rows="4" required></textarea>
+              <div class="invalid-feedback">Escreva sua mensagem.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-terra">Enviar mensagem</button>
+              <span id="formSuccess" class="ms-3 d-none" style="color:var(--dourado);font-size:0.9rem;">✓ Mensagem enviada com sucesso!</span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer-aprod">
+  <div class="container">
+    <div class="row gy-4 align-items-center">
+      <div class="col-md-4">
+        <div class="brand-mark mb-2">
+          <span class="brand-logo" style="border-color:rgba(244,239,228,0.3);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c9a154" stroke-width="1.6"><path d="M3 8h13v5a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8z"/><path d="M16 9h2a2.5 2.5 0 0 1 0 5h-2"/></svg>
+          </span>
+          <span style="color:rgba(244,239,228,0.85);font-family:var(--font-display);font-weight:600;">Associação APROD</span>
+        </div>
+        <p class="mb-0">Divinolândia-SP · Serra da Mantiqueira</p>
+      </div>
+      <div class="col-md-4">
+        <div class="selo-row">
+          <span class="selo" title="Comércio Justo">🌱</span>
+          <span class="selo" title="Origem Certificada">🏔️</span>
+          <span class="selo" title="Qualidade">☕</span>
+        </div>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <p class="mb-0">© 2026 APROD. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Navbar com sombra ao rolar
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 30) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+  });
+
+  // Fecha o menu mobile ao clicar em um link
+  document.querySelectorAll('#navMenu .nav-link, #navMenu .btn-terra').forEach(link => {
+    link.addEventListener('click', () => {
+      const menu = document.getElementById('navMenu');
+      if (menu.classList.contains('show')) {
+        bootstrap.Collapse.getOrCreateInstance(menu).hide();
+      }
+    });
+  });
+
+  // Validação simples do formulário de contato
+  const form = document.getElementById('contatoForm');
+  const successMsg = document.getElementById('formSuccess');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!form.checkValidity()) {
+      form.classList.add('was-validated');
+      successMsg.classList.add('d-none');
+      return;
+    }
+    form.classList.add('was-validated');
+    successMsg.classList.remove('d-none');
+    form.reset();
+    form.classList.remove('was-validated');
+  });
+</script>
+</body>
+</html>
